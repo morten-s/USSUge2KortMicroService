@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "USSUge2KortMicroService/1.0.0": {
+        "runtime": {
+          "USSUge2KortMicroService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "USSUge2KortMicroService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

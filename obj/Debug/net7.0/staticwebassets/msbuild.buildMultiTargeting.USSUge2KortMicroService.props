@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\USSUge2KortMicroService.props" />
+</Project>
