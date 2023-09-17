@@ -1,5 +1,5 @@
-namespace ShoppingCart
-{
+
+
   using System;
   using System.Linq;
   using Microsoft.AspNetCore.Builder;
@@ -29,4 +29,3 @@ namespace ShoppingCart
       app.UseEndpoints(endpoints => endpoints.MapControllers());
     }
   }
-}
