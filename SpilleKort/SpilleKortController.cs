@@ -6,7 +6,7 @@ namespace SpilleKort
   [Route("/")]
   public class SpilleKortController : Controller
   {
-    private SpilleKort kortobj = new SpilleKort();
+    private SpilleKort kortobj = new();
     
     [HttpGet("")]
     public Kort Get() => kortobj.HentKort();

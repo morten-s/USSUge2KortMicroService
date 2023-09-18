@@ -1,4 +1,12 @@
+
 # USSUge2KortMicroService
+
+Jeg har brugt mvc med domain driven design pattern ref s.7 microservices 
+Datastruktur record, som er en datatype, value baseret sammenligning og imutable, lidt  som tupples.
+
+
+Noter
+-----
 
 Du skal lave en microservice, der trækker et tilfældigt kort i et komplet sæt spillekort (52 kort + 3 jokere). Der skal være den samme sandsynlighed for at trække hvert kort.
 Servicen skal returnere et JSON-objekt som fortæller, hvilket kort der er trukket (kulør og værdi eller joker).
