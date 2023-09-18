@@ -3,17 +3,12 @@ namespace SpilleKort
 
   using System.Linq;
   using Microsoft.AspNetCore.Mvc;
-
-  [Route("/kort")]
-  public class SpilleKortController
+  [Route("/")]
+  public class SpilleKortController : Controller
   {
-    private readonly IEventStore eventStore;
-
-    public SpilleKortController(IEventStore eventStore) => this.eventStore = eventStore;
+    private SpilleKort kortobj = new SpilleKort();
     
     [HttpGet("")]
-    public Event[] Get([FromQuery] long start, [FromQuery] long end = long.MaxValue) => 
-      this.eventStore.GetEvents(start, end).ToArray();
+    public Kort Get() => kortobj.HentKort();
   }
-}
 }

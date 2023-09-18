@@ -24,3 +24,7 @@ C:\Users\Molle\source\repos\USSUge2KortMicroService\obj\Debug\net7.0\refint\USSU
 C:\Users\Molle\source\repos\USSUge2KortMicroService\obj\Debug\net7.0\USSUge2KortMicroService.pdb
 C:\Users\Molle\source\repos\USSUge2KortMicroService\obj\Debug\net7.0\USSUge2KortMicroService.genruntimeconfig.cache
 C:\Users\Molle\source\repos\USSUge2KortMicroService\obj\Debug\net7.0\ref\USSUge2KortMicroService.dll
+C:\Users\Molle\source\repos\USSUge2KortMicroService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Molle\source\repos\USSUge2KortMicroService\bin\Debug\net7.0\Polly.dll
+C:\Users\Molle\source\repos\USSUge2KortMicroService\bin\Debug\net7.0\Scrutor.dll
+C:\Users\Molle\source\repos\USSUge2KortMicroService\obj\Debug\net7.0\USSUge2KortMicroService.csproj.CopyComplete

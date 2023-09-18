@@ -14,3 +14,5 @@ French
 https://en.wikipedia.org/wiki/Standard_52-card_deck
 	Ace	2	3	4	5	6	7	8	9	10	Jack	Queen	King
  Clubs Diamonds Hearts Spades
+
+

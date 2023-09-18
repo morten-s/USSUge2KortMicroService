@@ -10,15 +10,15 @@
   {
     public void ConfigureServices(IServiceCollection services)
     {
-      services.Scan(selector => selector
-        .FromAssemblyOf<Startup>()
-        .AddClasses(c => c.Where(t => t != typeof(ProductCatalogClient) && t.GetMethods().All(m => m.Name != "<Clone>$")))
-        .AsImplementedInterfaces());
-      services.AddHttpClient<IProductCatalogClient, ProductCatalogClient>()
-        .AddTransientHttpErrorPolicy(p =>
-          p.WaitAndRetryAsync(
-            3,
-            attempt => TimeSpan.FromMilliseconds(100 * Math.Pow(2, attempt))));
+      // services.Scan(selector => selector
+      //   .FromAssemblyOf<Startup>()
+      //   .AddClasses(c => c.Where(t => t != typeof(ProductCatalogClient) && t.GetMethods().All(m => m.Name != "<Clone>$")))
+      //   .AsImplementedInterfaces());
+      // services.AddHttpClient<IProductCatalogClient, ProductCatalogClient>()
+      //   .AddTransientHttpErrorPolicy(p =>
+      //     p.WaitAndRetryAsync(
+      //       3,
+      //       attempt => TimeSpan.FromMilliseconds(100 * Math.Pow(2, attempt))));
       services.AddControllers();
     }
 
