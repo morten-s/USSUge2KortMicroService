@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\USSUge2KortMicroService.props" />
-</Project>
